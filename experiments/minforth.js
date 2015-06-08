@@ -16,8 +16,7 @@ ctx = {
 			s.push( ( s.pop() + s.pop() ) );
 		},
 		"-": function() {
-			d.swap();
-			s.push( s.pop() - s.pop() );
+			s.push( - s.pop() + s.pop() );
 		},
 		'*': function() {
 			s.push( s.pop() * s.pop() );
